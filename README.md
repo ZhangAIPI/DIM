@@ -6,7 +6,7 @@ This repository contains code to reproduce results from the paper:
 
 [Zeliang Zhang](https://zhangaipi.github.io/), [Mingqian Feng](https://openreview.net/profile?id=~Mingqian_Feng1), [Zhiheng Li](https://zhiheng.li/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/)
 
-![teaser](DIM/figs/github_dim.png)
+![teaser](figs/github_dim.png)
 
 
 TL; DR: we propose Decomposition, Interpretation, and Mitigation (DIM), a novel method to address a more challenging but also more practical problem of discovering multiple biased subgroups in image classifiers
