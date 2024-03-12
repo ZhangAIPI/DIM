@@ -23,7 +23,7 @@ There are three steps in our method, namely the D(iscovery), I(dentification), a
 
 
 
-# Citation
+## Citation
 
 If you find the idea or code useful for your research, please consider citing our [paper](https://github.com/ZhangAIPI/DIM):
 
@@ -36,6 +36,6 @@ If you find the idea or code useful for your research, please consider citing ou
 }
 ```
 
-# Contact
+## Contact
 
 Questions and suggestions can be sent to hust0426@gmail.com.
