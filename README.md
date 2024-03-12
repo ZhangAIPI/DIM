@@ -4,7 +4,7 @@ This repository contains code to reproduce results from the paper:
 
 [Discover and Mitigate Multiple Biased Subgroups in Image Classifiers](https://github.com/ZhangAIPI/DIM) (CVPR 2024)
 
-[Zeliang Zhang](https://zhangaipi.github.io/), [Mingqian Feng](https://openreview.net/profile?id=~Mingqian_Feng1), [Zhiheng Li](https://zhiheng.li/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/)
+*[Zeliang Zhang](https://zhangaipi.github.io/), *[Mingqian Feng](https://openreview.net/profile?id=~Mingqian_Feng1), [Zhiheng Li](https://zhiheng.li/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/)
 
 ![teaser](figs/github_dim.png)
 
