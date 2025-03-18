@@ -8,8 +8,7 @@ from torchvision import transforms
 import open_clip
 import argparse
 import torch.nn.functional as F
-from data.dataloader import DataLoaderCreator
-from model.model import ModelCreator
+from dataloader import DataLoaderCreator
 from sklearn.decomposition import PCA
 from sklearn.cross_decomposition import PLSRegression
 from sklearn.cross_decomposition import CCA
@@ -17,6 +16,19 @@ from sklearn.svm import SVC
 from sklearn.preprocessing import OneHotEncoder
 import matplotlib.pyplot as plt
 import itertools
+import torchvision
+
+
+class ModelCreator(object):
+    def __init__(self, args=None):
+        self.args = args
+        self.model = self.create_model()
+        
+    def create_model(self, model_name=None, num_classes=None):
+        model_name = model_name or self.args.model
+        num_classes = num_classes or self.args.num_classes
+        return torchvision.models.resnet18(weights=None, num_classes=num_classes)
+        
 
 
 
